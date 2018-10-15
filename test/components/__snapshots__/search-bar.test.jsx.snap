@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`normal SearchBar snapshot 1`] = `
+<SearchBar
+  error={false}
+  hash="hash"
+  searchHash={[Function]}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "runSagaTask": [Function],
+      "sagaTask": Object {
+        "@@redux-saga/TASK": true,
+        "cancel": [Function],
+        "cont": undefined,
+        "done": Promise {},
+        "error": [Function],
+        "id": 9,
+        "isAborted": [Function],
+        "isCancelled": [Function],
+        "isRunning": [Function],
+        "joiners": Array [],
+        "name": "rootSaga",
+        "result": [Function],
+        "setContext": [Function],
+      },
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "runSagaTask": [Function],
+        "sagaTask": Object {
+          "@@redux-saga/TASK": true,
+          "cancel": [Function],
+          "cont": undefined,
+          "done": Promise {},
+          "error": [Function],
+          "id": 9,
+          "isAborted": [Function],
+          "isCancelled": [Function],
+          "isRunning": [Function],
+          "joiners": Array [],
+          "name": "rootSaga",
+          "result": [Function],
+          "setContext": [Function],
+        },
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`with error SearchBar snapshot 1`] = `
+<SearchBar
+  error={
+    Object {
+      "error": true,
+    }
+  }
+  hash="none"
+  searchHash={[Function]}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "runSagaTask": [Function],
+      "sagaTask": Object {
+        "@@redux-saga/TASK": true,
+        "cancel": [Function],
+        "cont": undefined,
+        "done": Promise {},
+        "error": [Function],
+        "id": 13,
+        "isAborted": [Function],
+        "isCancelled": [Function],
+        "isRunning": [Function],
+        "joiners": Array [],
+        "name": "rootSaga",
+        "result": [Function],
+        "setContext": [Function],
+      },
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "runSagaTask": [Function],
+        "sagaTask": Object {
+          "@@redux-saga/TASK": true,
+          "cancel": [Function],
+          "cont": undefined,
+          "done": Promise {},
+          "error": [Function],
+          "id": 13,
+          "isAborted": [Function],
+          "isCancelled": [Function],
+          "isRunning": [Function],
+          "joiners": Array [],
+          "name": "rootSaga",
+          "result": [Function],
+          "setContext": [Function],
+        },
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+/>
+`;

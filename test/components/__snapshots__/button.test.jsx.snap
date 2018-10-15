@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button snapshot 1`] = `
+<button
+  className="jsx-905392263"
+  onClick={[MockFunction]}
+  type="button"
+>
+  click me
+  <JSXStyle
+    css="button.jsx-905392263{-webkit-appearance:none;-moz-appearance:none;appearance:none;font-size:inherit;padding:.5rem;cursor:pointer;border:2px solid black;min-width:8rem;}"
+    styleId="905392263"
+  />
+</button>
+`;

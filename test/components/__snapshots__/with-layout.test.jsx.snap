@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithLayout snapshot 1`] = `
+<div
+  className="jsx-356941361"
+>
+  markup
+  <JSXStyle
+    css="@font-face{font-family:system;font-style:normal;font-weight:300;src:local(\\".SFNSText-Light\\"),local(\\".HelveticaNeueDeskInterface-Light\\"),local(\\".LucidaGrandeUI\\"),local(\\"Ubuntu:Light\\"),local(\\"Segoe UI Light\\"),local(\\"Roboto-Light\\"),local(\\"DroidSans\\"),local(\\"Tahoma\\");}body{font-family:\\"system\\";font-size:18px;}main{margin:0 4rem;}"
+    styleId="356941361"
+  />
+</div>
+`;

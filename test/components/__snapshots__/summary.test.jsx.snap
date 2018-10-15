@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`normal Summary snapshot 1`] = `
+<Summary
+  dispatch={[Function]}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "runSagaTask": [Function],
+      "sagaTask": Object {
+        "@@redux-saga/TASK": true,
+        "cancel": [Function],
+        "cont": undefined,
+        "done": Promise {},
+        "error": [Function],
+        "id": 5,
+        "isAborted": [Function],
+        "isCancelled": [Function],
+        "isRunning": [Function],
+        "joiners": Array [],
+        "name": "rootSaga",
+        "result": [Function],
+        "setContext": [Function],
+      },
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "runSagaTask": [Function],
+        "sagaTask": Object {
+          "@@redux-saga/TASK": true,
+          "cancel": [Function],
+          "cont": undefined,
+          "done": Promise {},
+          "error": [Function],
+          "id": 5,
+          "isAborted": [Function],
+          "isCancelled": [Function],
+          "isRunning": [Function],
+          "joiners": Array [],
+          "name": "rootSaga",
+          "result": [Function],
+          "setContext": [Function],
+        },
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+  summary={
+    Object {
+      "bits": 402885509,
+      "fee": 503278,
+      "hash": "000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214",
+      "height": 443887,
+      "merkleRoot": "83f5fdf40b0b02c09ae669041df1bedfc635c45f696057a8c29e1bde1f4cbd24",
+      "nextBlock": "0000000000000000000cdc0d2a9b33c2d4b34b4d4fa8920f074338d0dc1164dc",
+      "numberOfTransactions": 20,
+      "previousBlock": "000000000000000000f061205567dc79c4e718209a568879d66132e016968ac6",
+      "receivedTime": "Sat Dec 17 2016",
+      "size": "6264 bytes",
+      "time": "Sat Dec 17 2016",
+      "version": 536870914,
+    }
+  }
+/>
+`;
+
+exports[`without hash Summary snapshot 1`] = `
+<Summary
+  dispatch={[Function]}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "runSagaTask": [Function],
+      "sagaTask": Object {
+        "@@redux-saga/TASK": true,
+        "cancel": [Function],
+        "cont": undefined,
+        "done": Promise {},
+        "error": [Function],
+        "id": 9,
+        "isAborted": [Function],
+        "isCancelled": [Function],
+        "isRunning": [Function],
+        "joiners": Array [],
+        "name": "rootSaga",
+        "result": [Function],
+        "setContext": [Function],
+      },
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "runSagaTask": [Function],
+        "sagaTask": Object {
+          "@@redux-saga/TASK": true,
+          "cancel": [Function],
+          "cont": undefined,
+          "done": Promise {},
+          "error": [Function],
+          "id": 9,
+          "isAborted": [Function],
+          "isCancelled": [Function],
+          "isRunning": [Function],
+          "joiners": Array [],
+          "name": "rootSaga",
+          "result": [Function],
+          "setContext": [Function],
+        },
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+  summary={
+    Object {
+      "bits": 402885509,
+      "fee": 503278,
+      "hash": "",
+      "height": 443887,
+      "merkleRoot": "83f5fdf40b0b02c09ae669041df1bedfc635c45f696057a8c29e1bde1f4cbd24",
+      "nextBlock": "0000000000000000000cdc0d2a9b33c2d4b34b4d4fa8920f074338d0dc1164dc",
+      "numberOfTransactions": 20,
+      "previousBlock": "000000000000000000f061205567dc79c4e718209a568879d66132e016968ac6",
+      "receivedTime": "Sat Dec 17 2016",
+      "size": "6264 bytes",
+      "time": "Sat Dec 17 2016",
+      "version": 536870914,
+    }
+  }
+/>
+`;

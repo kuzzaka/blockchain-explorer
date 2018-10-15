@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page snapshot 1`] = `
+<main>
+  <Header
+    title="Blockchain Explorer"
+  />
+  <Connect(Summary) />
+  <Connect(TransactionList) />
+</main>
+`;

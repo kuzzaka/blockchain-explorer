@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header snapshot 1`] = `
+<header>
+  <h1>
+    My Title
+  </h1>
+  <Connect(SearchBar) />
+</header>
+`;
