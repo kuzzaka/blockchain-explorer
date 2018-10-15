@@ -9,4 +9,4 @@
 I used next.js as go-to starter. The libraries used are redux, redux-saga, lodash. I used [this](https://blockchain.info/rawblock/$block_hash) API endpoint because it provides all the fields necessary. 
 The design implemented is kinda 'brutalist' one. 
 
-The page is available online [here]()
+The page is available online [here](https://with-redux-saga-mxjhzjkdfo.now.sh)
