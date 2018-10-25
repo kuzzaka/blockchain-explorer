@@ -14,7 +14,7 @@ export function* loadDataSaga(payload) {
     const data = yield res.json();
     yield put(loadDataSuccess(data));
   } catch (err) {
-    yield put(failure(err));
+    yield put(failure(err, payload.query));
   }
 }
 

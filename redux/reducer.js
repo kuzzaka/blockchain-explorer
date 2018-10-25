@@ -1,5 +1,6 @@
 import chunk from 'lodash/chunk';
 import inRange from 'lodash/inRange';
+import escape from 'lodash/escape';
 import { Types } from './actions';
 
 const PER_PAGE = 5;
@@ -29,8 +30,11 @@ function reducer(state = defaultState, action) {
     case Types.FAILURE:
       return {
         ...state,
-        ...{ hash: '' },
-        ...{ error: action.error },
+        ...defaultState,
+        ...{
+          hash: escape(action.query),
+          error: action.error,
+        },
       };
 
     case Types.LOAD_DATA_SUCCESS:

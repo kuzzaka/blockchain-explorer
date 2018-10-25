@@ -5,17 +5,19 @@ import get from 'lodash/get';
 import sum from 'lodash/sum';
 import bindAll from 'lodash/bindAll';
 import Button from './button';
-import { normalizeDate } from '../services/utils';
+import { normalizeDate, formatBTCValue } from '../services/utils';
 
 const MAX_SHOWN_HASHES = 4;
 
 export default class Transaction extends React.Component {
   static getValueString(value) {
-    return `${get(value, 'value') || 'No value provided in'} BTC`;
+    return `${formatBTCValue(get(value, 'value')) || 'No value provided in'} BTC`;
   }
 
   static getTotalValueString(out) {
-    return `Total transaction value - ${out.reduce((acc, cur) => sum([acc, (get(cur, 'value') || 0)]), 0)} BTC`;
+    return `Total transaction value - ${formatBTCValue(
+      out.reduce((acc, cur) => sum([acc, (get(cur, 'value') || 0)]), 0),
+    )} BTC`;
   }
 
   static generateKey(value, idx) {
@@ -86,9 +88,9 @@ export default class Transaction extends React.Component {
               padding: 1rem;
               grid-template-rows: 1fr minmax(1fr, 4fr) 1fr;
               grid-template-columns: 1fr min-content 2fr;
-              grid-template-areas: 
-              "a a a" 
-              "b c d" 
+              grid-template-areas:
+              "a a a"
+              "b c d"
               "e e e";
               grid-gap: .5rem;
               width: 100%;

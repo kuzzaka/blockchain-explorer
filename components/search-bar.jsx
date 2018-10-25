@@ -6,7 +6,7 @@ import { loadData } from '../redux/actions';
 const SearchBar = ({ error, searchHash, hash }) => (
   <div className="search-container">
     <span role="img" className="icon" aria-label="search emoji">🔎</span>
-    <input type="search" onChange={searchHash} value={hash} placeholder="Enter/paste block hash" />
+    <input type="search" onChange={searchHash} value={hash} placeholder="Enter/paste block hash, index ..." />
     {error && (
     <p style={{ color: 'red' }}>
       The hash is not found

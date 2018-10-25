@@ -13,12 +13,12 @@ test('Transaction', () => {
 });
 
 test('getValueString', () => {
-  expect(Transaction.getValueString(txData[2].out[0])).toEqual('5640296 BTC');
+  expect(Transaction.getValueString(txData[2].out[0])).toEqual('0.05640296 BTC');
   expect(Transaction.getValueString({})).toEqual('No value provided in BTC');
 });
 
 test('getTotalValueString', () => {
-  expect(Transaction.getTotalValueString(txData[2].out)).toEqual('Total transaction value - 28269165 BTC');
+  expect(Transaction.getTotalValueString(txData[2].out)).toEqual('Total transaction value - 0.28269165 BTC');
   expect(Transaction.getTotalValueString([])).toEqual('Total transaction value - 0 BTC');
 });
 

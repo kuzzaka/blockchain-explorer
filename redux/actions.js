@@ -5,10 +5,11 @@ export const Types = {
   PAGINATE: 'PAGINATE',
 };
 
-export function failure(error) {
+export function failure(error, query) {
   return {
     type: Types.FAILURE,
     error,
+    query,
   };
 }
 

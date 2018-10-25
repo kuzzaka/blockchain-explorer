@@ -13,3 +13,10 @@ test('reducer', () => {
   expect(reducer(stateWithData, actions.paginate(8)).currentPage).toEqual(1);
   expect(reducer(stateWithData, actions.paginate(-8)).currentPage).toEqual(1);
 });
+
+test('XSS escape', () => {
+  const stateWithError = reducer(
+    defaultState, actions.failure({ error: true }, '<script>alert(123)</script>'),
+  );
+  expect(stateWithError.hash).toEqual('&lt;script&gt;alert(123)&lt;/script&gt;');
+});

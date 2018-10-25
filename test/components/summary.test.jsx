@@ -17,7 +17,7 @@ test('normal Summary snapshot', () => {
 });
 
 test('without hash Summary snapshot', () => {
-  const stateWithoutHash = { ...summaryData, ...{ hash: '' } };
+  const stateWithoutHash = { ...summaryData, ...{ numberOfTransactions: '' } };
   const wrapper = shallow(<Summary store={createStore(stateWithoutHash)} />);
   expect(wrapper).toMatchSnapshot();
 });

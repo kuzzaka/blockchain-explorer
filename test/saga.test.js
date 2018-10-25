@@ -39,9 +39,9 @@ describe('test error handling', () => {
   });
 
   test('error to be caught', () => {
-    const error = new TypeError('res.json is not a function');
-    const actual = gen.next(error).value;
-    const expected = put(failure(error));
+    const error = new Error('we have an error');
+    const actual = gen.throw(error).value;
+    const expected = put(failure(error, payload));
     expect(actual).toEqual(expected);
     expect(gen.next().done).toEqual(true);
   });

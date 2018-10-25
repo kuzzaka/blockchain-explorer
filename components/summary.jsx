@@ -8,7 +8,7 @@ import { normalizeDate } from '../services/utils';
 const Summary = ({ summary }) => (
   <details>
     <summary>Show block summary</summary>
-    {summary.hash && (
+    {summary.numberOfTransactions && (
       <dl>
         {map(summary, (value, key) => (
           <React.Fragment key={key}>
@@ -22,7 +22,7 @@ const Summary = ({ summary }) => (
     <style jsx>
       {`
       details {
-        display: ${summary.hash ? 'block' : 'none'};
+        display: ${summary.numberOfTransactions ? 'block' : 'none'};
       }
       summary {
         cursor: pointer;

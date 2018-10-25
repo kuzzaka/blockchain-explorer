@@ -151,7 +151,7 @@ exports[`without hash Summary snapshot 1`] = `
     Object {
       "bits": 402885509,
       "fee": 503278,
-      "hash": "",
+      "hash": "000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214",
       "height": 443887,
       "merkleRoot": "83f5fdf40b0b02c09ae669041df1bedfc635c45f696057a8c29e1bde1f4cbd24",
       "nextBlock": "0000000000000000000cdc0d2a9b33c2d4b34b4d4fa8920f074338d0dc1164dc",
