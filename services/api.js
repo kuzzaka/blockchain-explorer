@@ -1,5 +1,5 @@
 import fetch from 'isomorphic-unfetch';
 
-const fetchBlockData = payload => fetch(`/search/?q=${payload.query}`);
+const fetchBlockData = query => fetch(`/search/?q=${query}`);
 
 export default fetchBlockData;

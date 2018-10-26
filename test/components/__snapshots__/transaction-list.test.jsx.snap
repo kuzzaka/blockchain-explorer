@@ -3,6 +3,7 @@
 exports[`with both buttons TransactionList snapshot 1`] = `
 <TransactionList
   currentPage={1}
+  isFetching={false}
   paginateTo={[Function]}
   paginated={
     Array [
@@ -1182,6 +1183,7 @@ exports[`with both buttons TransactionList snapshot 1`] = `
 exports[`with next button only TransactionList snapshot 1`] = `
 <TransactionList
   currentPage={1}
+  isFetching={false}
   paginateTo={[Function]}
   paginated={
     Array [
@@ -2361,6 +2363,7 @@ exports[`with next button only TransactionList snapshot 1`] = `
 exports[`with only previous button TransactionList snapshot 1`] = `
 <TransactionList
   currentPage={1}
+  isFetching={false}
   paginateTo={[Function]}
   paginated={
     Array [
@@ -3540,6 +3543,7 @@ exports[`with only previous button TransactionList snapshot 1`] = `
 exports[`without buttons TransactionList snapshot 1`] = `
 <TransactionList
   currentPage={1}
+  isFetching={false}
   paginateTo={[Function]}
   paginated={Array []}
   store={

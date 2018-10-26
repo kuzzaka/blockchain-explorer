@@ -4,11 +4,11 @@ import SearchBar from '../../components/search-bar';
 import createStore from '../../redux/store';
 
 const normalState = {
-  hash: 'hash',
+  query: 'hash',
   error: false,
 };
 const withErrorState = {
-  hash: 'none',
+  query: 'none',
   error: { error: true },
 };
 

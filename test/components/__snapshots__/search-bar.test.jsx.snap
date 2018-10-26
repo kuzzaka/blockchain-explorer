@@ -3,7 +3,7 @@
 exports[`normal SearchBar snapshot 1`] = `
 <SearchBar
   error={false}
-  hash="hash"
+  query="hash"
   searchHash={[Function]}
   store={
     Object {
@@ -76,7 +76,7 @@ exports[`with error SearchBar snapshot 1`] = `
       "error": true,
     }
   }
-  hash="none"
+  query="none"
   searchHash={[Function]}
   store={
     Object {

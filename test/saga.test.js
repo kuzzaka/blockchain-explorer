@@ -1,16 +1,31 @@
 import { call, put } from 'redux-saga/effects';
+import { delay } from 'redux-saga';
 import { loadDataSaga } from '../redux/saga';
 import fetchBlockData from '../services/api';
-import { loadData, loadDataSuccess, failure } from '../redux/actions';
+import {
+  loadData, loadDataSuccess, failure, request,
+} from '../redux/actions';
 import summaryData from './stubs/summary-data';
 
 describe('test successful search', () => {
-  const payload = { query: 'hash' };
-  const gen = loadDataSaga(loadData(payload));
+  const query = 'hash';
+  const gen = loadDataSaga(loadData(query));
+
+  test('start request', () => {
+    const actual = gen.next().value;
+    const expected = put(request(query));
+    expect(actual).toEqual(expected);
+  });
+
+  test('debounce call', () => {
+    const actual = gen.next().value;
+    const expected = call(delay, 300);
+    expect(actual).toEqual(expected);
+  });
 
   test('api call', () => {
     const actual = gen.next().value;
-    const expected = call(fetchBlockData, loadData(payload));
+    const expected = call(fetchBlockData, query);
     expect(actual).toEqual(expected);
   });
 
@@ -29,19 +44,31 @@ describe('test successful search', () => {
 });
 
 describe('test error handling', () => {
-  const payload = { query: 'none' };
-  const gen = loadDataSaga(loadData(payload));
+  const query = 'none';
+  const gen = loadDataSaga(loadData(query));
+
+  test('start request', () => {
+    const actual = gen.next().value;
+    const expected = put(request(query));
+    expect(actual).toEqual(expected);
+  });
+
+  test('debounce call', () => {
+    const actual = gen.next().value;
+    const expected = call(delay, 300);
+    expect(actual).toEqual(expected);
+  });
 
   test('api call', () => {
     const actual = gen.next().value;
-    const expected = call(fetchBlockData, loadData(payload));
+    const expected = call(fetchBlockData, query);
     expect(actual).toEqual(expected);
   });
 
   test('error to be caught', () => {
     const error = new Error('we have an error');
     const actual = gen.throw(error).value;
-    const expected = put(failure(error, payload));
+    const expected = put(failure(error, query));
     expect(actual).toEqual(expected);
     expect(gen.next().done).toEqual(true);
   });

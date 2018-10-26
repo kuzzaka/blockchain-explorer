@@ -3,6 +3,7 @@ export const Types = {
   LOAD_DATA: 'LOAD_DATA',
   LOAD_DATA_SUCCESS: 'LOAD_DATA_SUCCESS',
   PAGINATE: 'PAGINATE',
+  REQUEST: 'REQUEST',
 };
 
 export function failure(error, query) {
@@ -31,5 +32,12 @@ export function paginate(to) {
   return {
     type: Types.PAGINATE,
     to,
+  };
+}
+
+export function request(query) {
+  return {
+    type: Types.REQUEST,
+    query,
   };
 }

@@ -1,6 +1,5 @@
 import chunk from 'lodash/chunk';
 import inRange from 'lodash/inRange';
-import escape from 'lodash/escape';
 import { Types } from './actions';
 
 const PER_PAGE = 5;
@@ -23,6 +22,8 @@ export const defaultState = {
   received_time: 1432723472,
   fee: 0,
   error: false,
+  isFetching: false,
+  query: '',
 };
 
 function reducer(state = defaultState, action) {
@@ -32,8 +33,10 @@ function reducer(state = defaultState, action) {
         ...state,
         ...defaultState,
         ...{
-          hash: escape(action.query),
+          query: action.query,
+          hash: '',
           error: action.error,
+          isFetching: false,
         },
       };
 
@@ -44,6 +47,7 @@ function reducer(state = defaultState, action) {
         ...{ currentPage: 1 },
         ...{ paginated: chunk(action.data.tx, PER_PAGE) },
         ...action.data,
+        isFetching: false,
       };
 
     case Types.PAGINATE:
@@ -53,6 +57,14 @@ function reducer(state = defaultState, action) {
           currentPage: inRange(action.to - 1, 0, state.paginated.length) ? action.to : 1,
         },
       };
+
+    case Types.REQUEST:
+      return {
+        ...state,
+        ...{ isFetching: true },
+        ...{ query: action.query },
+      };
+
     default:
       return state;
   }

@@ -3,13 +3,13 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { loadData } from '../redux/actions';
 
-const SearchBar = ({ error, searchHash, hash }) => (
+const SearchBar = ({ error, searchHash, query }) => (
   <div className="search-container">
     <span role="img" className="icon" aria-label="search emoji">🔎</span>
-    <input type="search" onChange={searchHash} value={hash} placeholder="Enter/paste block hash, index ..." />
+    <input type="search" onChange={searchHash} value={query} placeholder="Look up block by hash, index ..." />
     {error && (
-    <p style={{ color: 'red' }}>
-      The hash is not found
+    <p className="error-block">
+      The block is not found
     </p>
     )}
     {/* language=CSS */}
@@ -25,7 +25,7 @@ const SearchBar = ({ error, searchHash, hash }) => (
       }
       .search-container {
         position: relative;
-        margin-bottom: 2rem;
+        margin-bottom: ${error ? '1.4rem' : '2rem'};
       }
       .icon {
         display: inline-block;
@@ -33,12 +33,18 @@ const SearchBar = ({ error, searchHash, hash }) => (
         left: .5rem;
         top: .1rem;
       }
+      .error-block {
+        color: red;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        font-style: italic;
+      }
     `}
     </style>
   </div>
 );
 const mapStateToProps = state => ({
-  hash: state.hash,
+  query: state.query,
   error: state.error,
 });
 const mapDispatchToProps = dispatch => ({
@@ -49,6 +55,6 @@ export default connect(mapStateToProps, mapDispatchToProps)(SearchBar);
 SearchBar.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   error: PropTypes.any.isRequired,
-  hash: PropTypes.string.isRequired,
+  query: PropTypes.string.isRequired,
   searchHash: PropTypes.func.isRequired,
 };

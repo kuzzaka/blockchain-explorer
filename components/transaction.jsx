@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import * as React from 'react';
 import take from 'lodash/take';
 import get from 'lodash/get';
+import defaultTo from 'lodash/defaultTo';
 import sum from 'lodash/sum';
 import bindAll from 'lodash/bindAll';
 import Button from './button';
@@ -11,12 +12,12 @@ const MAX_SHOWN_HASHES = 4;
 
 export default class Transaction extends React.Component {
   static getValueString(value) {
-    return `${formatBTCValue(get(value, 'value')) || 'No value provided in'} BTC`;
+    return `${defaultTo(formatBTCValue(get(value, 'value')), 'No value provided in')} BTC`;
   }
 
   static getTotalValueString(out) {
     return `Total transaction value - ${formatBTCValue(
-      out.reduce((acc, cur) => sum([acc, (get(cur, 'value') || 0)]), 0),
+      out.reduce((acc, cur) => sum([acc, defaultTo(get(cur, 'value'), 0)]), 0),
     )} BTC`;
   }
 
