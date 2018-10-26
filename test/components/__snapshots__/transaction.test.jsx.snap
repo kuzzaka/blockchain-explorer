@@ -2,37 +2,37 @@
 
 exports[`with wrapper Transaction snapshot 1`] = `
 <article
-  className="jsx-3976977801"
+  className="jsx-3859852932"
 >
   <header
-    className="jsx-3976977801"
+    className="jsx-3859852932"
   >
     <h5
-      className="jsx-3976977801"
+      className="jsx-3859852932"
     >
       460bf9d5db9f1df960c03b5225316ac77d1965b8f4ac429e0e66a6e097018a07
     </h5>
     <time
-      className="jsx-3976977801"
+      className="jsx-3859852932"
       dateTime="Sat Dec 17 2016"
     >
       Sat Dec 17 2016
     </time>
   </header>
   <section
-    className="jsx-3976977801 inputs"
+    className="jsx-3859852932 inputs"
   >
     <h6
-      className="jsx-3976977801"
+      className="jsx-3859852932"
     >
       Inputs
     </h6>
     <div
-      className="jsx-3976977801 address-block"
+      className="jsx-3859852932 address-block"
       key="3AmYWkoqFh7M8MTb5hHQAYj5RUUVuKRrUq 0"
     >
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         3AmYWkoqFh7M8MTb5hHQAYj5RUUVuKRrUq
       </p>
@@ -40,85 +40,85 @@ exports[`with wrapper Transaction snapshot 1`] = `
   </section>
   <span
     aria-label="right arrow emoji"
-    className="jsx-3976977801 arrow"
+    className="jsx-3859852932 arrow"
     role="img"
   >
     ➡️
   </span>
   <section
-    className="jsx-3976977801 out"
+    className="jsx-3859852932 out"
   >
     <h6
-      className="jsx-3976977801"
+      className="jsx-3859852932"
     >
       Outputs
     </h6>
     <div
-      className="jsx-3976977801 address-block"
+      className="jsx-3859852932 address-block"
       key="115k5rUF99rtRErbEt7zpKESPKyfnhvVbK 0"
     >
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         115k5rUF99rtRErbEt7zpKESPKyfnhvVbK
       </p>
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         0.05640296 BTC
       </p>
     </div>
     <div
-      className="jsx-3976977801 address-block"
+      className="jsx-3859852932 address-block"
       key="3P5Ro2bjWPTQUv1mZznBPA9jVzb8z2oPug 1"
     >
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         3P5Ro2bjWPTQUv1mZznBPA9jVzb8z2oPug
       </p>
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         0.04339691 BTC
       </p>
     </div>
     <div
-      className="jsx-3976977801 address-block"
+      className="jsx-3859852932 address-block"
       key="3P5Ro2bjWPTQUv1mZznBPA9jVzb8z2oPug 2"
     >
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         3P5Ro2bjWPTQUv1mZznBPA9jVzb8z2oPug
       </p>
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         0.04339691 BTC
       </p>
     </div>
     <div
-      className="jsx-3976977801 address-block"
+      className="jsx-3859852932 address-block"
       key="3P5Ro2bjWPTQUv1mZznBPA9jVzb8z2oPug 3"
     >
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         3P5Ro2bjWPTQUv1mZznBPA9jVzb8z2oPug
       </p>
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         0.04339691 BTC
       </p>
     </div>
   </section>
   <div
-    className="jsx-3976977801 button-block"
+    className="jsx-3859852932 button-block"
   >
     <div
-      className="jsx-3976977801 total-value"
+      className="jsx-3859852932 total-value"
     >
       Total transaction value - 0.18659369 BTC
     </div>
@@ -129,45 +129,45 @@ exports[`with wrapper Transaction snapshot 1`] = `
     </Button>
   </div>
   <JSXStyle
-    css="article.jsx-3976977801{display:grid;border:black 2px solid;margin-bottom:.5rem;padding:1rem;grid-template-rows:1fr minmax(1fr,4fr) 1fr;grid-template-columns:1fr min-content 2fr;grid-template-areas: \\"a a a\\" \\"b c d\\" \\"e e e\\";grid-gap:.5rem;width:100%;}header.jsx-3976977801{padding:.5rem 1rem;font-weight:bolder;grid-area:a;}p.jsx-3976977801{padding:0 1rem;word-break:break-word;}p.jsx-3976977801+p.jsx-3976977801{padding-bottom:.5rem;}span.jsx-3976977801{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}h6.jsx-3976977801{margin-left:1rem;}.inputs.jsx-3976977801,.out.jsx-3976977801{border:darkslategray 1px dashed;}.inputs.jsx-3976977801{grid-area:b;}.out.jsx-3976977801{grid-area:d;}.arrow.jsx-3976977801{grid-area:c;}.button-block.jsx-3976977801{grid-area:e;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.total-value.jsx-3976977801{margin-right:1rem;font-weight:bolder;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}.address-block.jsx-3976977801{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}"
-    styleId="3976977801"
+    css="article.jsx-3859852932{display:grid;border:black 2px solid;margin-bottom:.5rem;padding:1rem;grid-template-rows:1fr minmax(1fr,4fr) 1fr;grid-template-columns:1fr min-content 2fr;grid-template-areas: \\"a a a\\" \\"b c d\\" \\"e e e\\";grid-gap:.5rem;width:100%;}header.jsx-3859852932{padding:.5rem 1rem;font-weight:bolder;grid-area:a;}p.jsx-3859852932{padding:0 1rem;word-break:break-word;}p.jsx-3859852932+p.jsx-3859852932{padding-bottom:.5rem;}span.jsx-3859852932{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}h5.jsx-3859852932{word-break:break-word;}h6.jsx-3859852932{margin-left:1rem;}.inputs.jsx-3859852932,.out.jsx-3859852932{border:darkslategray 1px dashed;}.inputs.jsx-3859852932{grid-area:b;}.out.jsx-3859852932{grid-area:d;}.arrow.jsx-3859852932{grid-area:c;}.button-block.jsx-3859852932{grid-area:e;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.total-value.jsx-3859852932{margin-right:1rem;margin-left:1rem;font-weight:bolder;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}.address-block.jsx-3859852932{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}"
+    styleId="3859852932"
   />
 </article>
 `;
 
 exports[`without wrapper Transaction snapshot 1`] = `
 <article
-  className="jsx-3976977801"
+  className="jsx-3859852932"
 >
   <header
-    className="jsx-3976977801"
+    className="jsx-3859852932"
   >
     <h5
-      className="jsx-3976977801"
+      className="jsx-3859852932"
     >
       f94528b2012446f4e367694871d07d5c726788e2f20d5553161a24debbec5118
     </h5>
     <time
-      className="jsx-3976977801"
+      className="jsx-3859852932"
       dateTime="Sat Dec 17 2016"
     >
       Sat Dec 17 2016
     </time>
   </header>
   <section
-    className="jsx-3976977801 inputs"
+    className="jsx-3859852932 inputs"
   >
     <h6
-      className="jsx-3976977801"
+      className="jsx-3859852932"
     >
       Inputs
     </h6>
     <div
-      className="jsx-3976977801 address-block"
+      className="jsx-3859852932 address-block"
       key="undefined 0"
     >
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         No address provided
       </p>
@@ -175,47 +175,47 @@ exports[`without wrapper Transaction snapshot 1`] = `
   </section>
   <span
     aria-label="right arrow emoji"
-    className="jsx-3976977801 arrow"
+    className="jsx-3859852932 arrow"
     role="img"
   >
     ➡️
   </span>
   <section
-    className="jsx-3976977801 out"
+    className="jsx-3859852932 out"
   >
     <h6
-      className="jsx-3976977801"
+      className="jsx-3859852932"
     >
       Outputs
     </h6>
     <div
-      className="jsx-3976977801 address-block"
+      className="jsx-3859852932 address-block"
       key="1CK6KHY6MHgYvmRQ4PAafKYDrg1ejbH1cE 0"
     >
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         1CK6KHY6MHgYvmRQ4PAafKYDrg1ejbH1cE
       </p>
       <p
-        className="jsx-3976977801"
+        className="jsx-3859852932"
       >
         12.50503278 BTC
       </p>
     </div>
   </section>
   <div
-    className="jsx-3976977801 button-block"
+    className="jsx-3859852932 button-block"
   >
     <div
-      className="jsx-3976977801 total-value"
+      className="jsx-3859852932 total-value"
     >
       Total transaction value - 12.50503278 BTC
     </div>
   </div>
   <JSXStyle
-    css="article.jsx-3976977801{display:grid;border:black 2px solid;margin-bottom:.5rem;padding:1rem;grid-template-rows:1fr minmax(1fr,4fr) 1fr;grid-template-columns:1fr min-content 2fr;grid-template-areas: \\"a a a\\" \\"b c d\\" \\"e e e\\";grid-gap:.5rem;width:100%;}header.jsx-3976977801{padding:.5rem 1rem;font-weight:bolder;grid-area:a;}p.jsx-3976977801{padding:0 1rem;word-break:break-word;}p.jsx-3976977801+p.jsx-3976977801{padding-bottom:.5rem;}span.jsx-3976977801{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}h6.jsx-3976977801{margin-left:1rem;}.inputs.jsx-3976977801,.out.jsx-3976977801{border:darkslategray 1px dashed;}.inputs.jsx-3976977801{grid-area:b;}.out.jsx-3976977801{grid-area:d;}.arrow.jsx-3976977801{grid-area:c;}.button-block.jsx-3976977801{grid-area:e;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.total-value.jsx-3976977801{margin-right:1rem;font-weight:bolder;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}.address-block.jsx-3976977801{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}"
-    styleId="3976977801"
+    css="article.jsx-3859852932{display:grid;border:black 2px solid;margin-bottom:.5rem;padding:1rem;grid-template-rows:1fr minmax(1fr,4fr) 1fr;grid-template-columns:1fr min-content 2fr;grid-template-areas: \\"a a a\\" \\"b c d\\" \\"e e e\\";grid-gap:.5rem;width:100%;}header.jsx-3859852932{padding:.5rem 1rem;font-weight:bolder;grid-area:a;}p.jsx-3859852932{padding:0 1rem;word-break:break-word;}p.jsx-3859852932+p.jsx-3859852932{padding-bottom:.5rem;}span.jsx-3859852932{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}h5.jsx-3859852932{word-break:break-word;}h6.jsx-3859852932{margin-left:1rem;}.inputs.jsx-3859852932,.out.jsx-3859852932{border:darkslategray 1px dashed;}.inputs.jsx-3859852932{grid-area:b;}.out.jsx-3859852932{grid-area:d;}.arrow.jsx-3859852932{grid-area:c;}.button-block.jsx-3859852932{grid-area:e;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.total-value.jsx-3859852932{margin-right:1rem;margin-left:1rem;font-weight:bolder;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}.address-block.jsx-3859852932{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}"
+    styleId="3859852932"
   />
 </article>
 `;

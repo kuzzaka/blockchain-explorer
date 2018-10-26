@@ -29,6 +29,10 @@ const Summary = ({ summary }) => (
       }
       dt {
         font-weight: bolder;
+        word-break: break-word;
+      }
+      dd {
+        word-break: break-word;
       }
     `}
     </style>

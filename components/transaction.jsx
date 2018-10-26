@@ -111,6 +111,9 @@ export default class Transaction extends React.Component {
             span {
               align-self: center;
             }
+            h5 {
+                word-break: break-word;
+            }
             h6 {
               margin-left: 1rem;
             }
@@ -134,6 +137,7 @@ export default class Transaction extends React.Component {
             }
             .total-value {
               margin-right: 1rem;
+              margin-left: 1rem;
               font-weight: bolder;
               align-self: center;
             }
